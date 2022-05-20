@@ -1,0 +1,34 @@
+.menubar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+.menubarred {
+  background-color: red;
+  color: white;
+}
+.menubarblue {
+  background-color: blue;
+  color: white;
+}
+.menubaryellow {
+  background-color: gold;
+  color: black;
+}
+.menu {
+  float: left;
+}
+
+.menu .menu-items {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu .menu-items:hover {
+  background-color: #111;
+}

@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.theme-button {
+  display: flex;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  opacity: 0.2;
+  margin: 5px;
+}
+.red {
+  background-color: red;
+  color: white;
+}
+
+.blue {
+  background-color: dodgerblue;
+  color: white;
+}
+.yellow {
+  background-color: gold;
+  color: #222;
+}
+.purple {
+  background-color: purple;
+  color: #fff;
+}
+.black {
+  background-color: black;
+  color: white;
+}
+.maroon {
+  background-color: rgb(122, 33, 33);
+  color: #fff;
+}
+.green {
+  background-color: rgb(9, 78, 32);
+  color: #fff;
+}
+.active {
+  opacity: 1;
+}
+
+.ThemeButton {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
